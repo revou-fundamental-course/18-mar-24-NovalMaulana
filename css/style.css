@@ -1,0 +1,227 @@
+/* NAVIGASI */
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+        flex-direction: column
+    }
+
+    .header-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo-icon {
+        margin-bottom: 14px;
+    }
+
+    .section-content-container {
+        flex-direction: column;
+    }
+
+    .banner-caption, .photo-profil {
+        flex-direction: row;
+    }
+
+    .lokasi {
+        flex-direction: column;
+    }
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 24px;
+    width: 64px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.logo-icon {
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(assets/1.jpg)
+}
+
+.nav-container > button {
+    height: 30px;
+    width: 80px;
+}
+
+/* CONTENT */
+.section-container {
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+
+.section-container > header {
+    text-align: center;
+}
+
+.teks-header {
+    margin-bottom: 50px;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+/* Image Slide */
+
+.banner-section {
+    height: 1250px;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 16px;
+    margin-left: 50px;
+}
+
+.idol {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.banner-caption {
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    color: grey;
+}
+
+.photo-profil {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-left: 75px;
+    margin-right: 35px;
+}
+
+.teks {
+    font-size: 15px;
+}
+
+.citation {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.jkt48 {
+    margin-top: 40px;
+    margin-left: 75px;
+}
+
+.info-jkt48, .jkt48-didirikan, .jkt48-member {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.jkt48-member {
+    margin-bottom: 5%;
+}
+
+.teks-1 {
+    font-size: 15px;
+}
+
+/* Contact US */
+
+.form-container {
+    height: 650px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #abdee6;
+    margin-left: 16px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.form-input {
+    height: 35px;
+    width: 50%;
+    border: 1px solid #AAACB1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.button-kirim {
+    margin-top: 5%;
+    width: 50%;
+    height: 50px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+}
+
+/* Lokasi */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.lokasi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+}
+
+/* Tutup */
+
+.tutup {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.tombol-tutup {
+    margin-top: 2%;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.penutup {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+.penutup1, .penutup2, .penutup3 {
+    margin-right: 30px;
+}
